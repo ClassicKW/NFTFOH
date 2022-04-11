@@ -24,7 +24,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
      {
        "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "CrispR4t": "CrispR4T",
+       "name": "CrispR4T",
        "bio": "The Commish",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
@@ -44,7 +44,7 @@ export const managers = [
      },
      {
        "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "ClassicKW": "Your Name",
+       "name": "ClassicKW",
        "location": "Winnipeg, Canada", 
        "bio": "Old and Cranky",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -65,7 +65,7 @@ export const managers = [
      },
      {
        "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "Corey2K": "Your Name",
+       "name": "Corey2k",
        "location": "Unknown", // (optional)
        "bio": "Blank",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
