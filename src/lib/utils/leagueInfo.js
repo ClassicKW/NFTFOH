@@ -1,6 +1,6 @@
 /*   STEP 1   */
-export const leagueID = "786443188629004288"; // your league ID
-export const leagueName = "Not for the Faint of Heart"; // your league name
+export const leagueID = "818535529942487040"; // your league ID
+export const leagueName = "Treehouse Football"; // your league name
 export const dues = 50; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
@@ -24,10 +24,10 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
      {
        "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "CrispR4T",
+       "name": "ClassicKW",
        "bio": "The Commish",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+       "fantasyStart": 1999, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "Unknown", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
@@ -44,9 +44,9 @@ export const managers = [
      },
      {
        "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "ClassicKW",
-       "location": "Winnipeg, Canada", 
-       "bio": "Old and Cranky",
+       "name": "NeoFlock",
+       "location": "Parts Unknown", 
+       "bio": "Likes the Ravens",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2001, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "Cowboys", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -65,7 +65,7 @@ export const managers = [
      },
      {
        "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Corey2k",
+       "name": "ZSweens",
        "location": "Unknown", // (optional)
        "bio": "Blank",
        "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -86,7 +86,7 @@ export const managers = [
      },
    {
        "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "CoolGiraffe": "Your Name",
+       "CoachBQ": "Your Name",
        "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
@@ -108,7 +108,7 @@ export const managers = [
      },
    {
        "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Your Name",
+       "Xian": "Your Name",
        "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
@@ -130,7 +130,7 @@ export const managers = [
      },
    {
        "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Your Name",
+       "Ramses25": "Your Name",
        "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
@@ -152,7 +152,7 @@ export const managers = [
      },
    {
        "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Your Name",
+       "OhJay78": "Your Name",
        "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
@@ -174,7 +174,7 @@ export const managers = [
      },
    {
        "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Your Name",
+       "GMueller7": "Your Name",
        "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
@@ -196,7 +196,7 @@ export const managers = [
      },
    {
        "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Your Name",
+       "IanPititto16": "Your Name",
        "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
@@ -218,7 +218,7 @@ export const managers = [
      },
    {
        "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Your Name",
+       "SkimBeeble564": "Your Name",
        "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
@@ -240,7 +240,7 @@ export const managers = [
      },
    {
        "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Your Name",
+       "Pfeifa01": "Your Name",
        "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
@@ -262,7 +262,7 @@ export const managers = [
      },
    {
        "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Your Name",
+       "BigSmo": "Your Name",
        "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Brooklyn", // (optional)
        "bio": "Lorem ipsum...",
